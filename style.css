@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+a:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+header {
+  background-color: rgba(240, 130, 30, 0.8);
+  display: flex;
+  height: 80px;
+}
+
+header a {
+  color: #fff;
+}
+
+.container {
+  max-width: 1140px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-left {
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header-title:hover {
+  color: black;
+}
+
+.header-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+.header-left h1 {
+  line-height: 40px;
+  font-family: serif;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right ul {
+  display: flex;
+}
+
+.header-right li {
+  padding-right: 30px;
+  list-style: none;
+}
+
+.header-right a {
+  line-height: 60px;
+}
+
+.top-wrapper {
+  background-image:linear-gradient(#7acbe1, #009bc6);
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: lighten;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-top {
+  border-bottom: 1px solid #fff;
+}
+
+.main-top a {
+  color: #fff;
+}
+
+.main-top a:hover {
+  color: rgba(0, 160, 220, 1);
+}
+
+.top a {
+  flex-direction: row;
+  padding-right: 20px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.main-wrapper {
+  background-image: url(../images/main2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: grid;
+}
+
+.main-title {
+  font-weight: lighter;
+  font-family: serif;
+  margin: 0;
+  padding-top: 130px;
+  font-size: 60px;
+  color: #fff;
+  padding-right: 350px;
+}
+
+.main-text {
+  letter-spacing: 10px;
+  font-size: 30px;
+  font-family: serif;
+  color: #fff;
+  padding-right: 400px;
+}
+
+.main-contents {
+  margin-top: 40px;
+}
+
+/*.main-image {
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  margin: 0 20px;
+}*/
+
+.main-contents a {
+  display: inline-block;
+}
+
+.info-wrapper {
+  margin-top: 50px;
+  background-color: rgba(240, 130, 30, 0.4);
+  margin-bottom: 100px;
+}
+
+.info-title {
+  padding: 20px 0;
+  font-family: serif;
+  color: rgba(241, 89, 34, 1);
+}
+
+.info-contents {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-content:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.info-image {
+  width: 300px;
+  height: 200px;
+}
+
+footer {
+  height: 100px;
+  border-top: 1px solid #dddddd;
+  margin-top: 50px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-right p {
+  opacity: 0.7;
+}
+
+.company-title {
+  padding-top: 30px;
+  letter-spacing: 3px;
+  font-family: serif;
+  color: rgba(241, 89, 34, 1);
+}
+
+.text-company {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid #000000;
+}
+
+.location-wrapper {
+  margin: 30px 0;
+}
+
+.service-wrapper {
+  margin-top: 30px;
+}
+
+.service-wrapper .container {
+  width: 90%;
+}
+
+.service-title {
+  padding-top: 60px;
+  letter-spacing: 3px;
+  font-family: serif;
+  color: rgba(241, 89, 34, 1);
+}
+
+.service-items {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-logo {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 60px;
+  padding-top: 50px;
+  border-radius: 50%;
+}
+
+.item {
+  height: 550px;
+}
+
+.item-title {
+  padding-top: 50px;
+  font-weight: normal;
+}
+
+.text-item {
+  text-align: justify;
+  font-size: 12px;
+  margin: 0 6px;
+  display: none;
+}
+
+#item-color1 {
+  background-color:rgba(255, 191, 31, 0.8);
+  width: 25%;
+}
+
+#item-color2 {
+  background-color:rgba(240, 130, 30, 0.8);
+  width: 25%;
+}
+#item-color3 {
+  background-color:rgba(127, 217, 210, 0.8);
+  width: 25%;
+}
+#item-color4 {
+  background-color:rgba(153, 204, 101, 0.8);
+  width: 25%;
+}
+
+.contact-title {
+  padding-top: 30px;
+  letter-spacing: 3px;
+  font-family: serif;
+  color: rgba(241, 89, 34, 1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  padding: 15px 100px;
+  margin: 30px 0;
+  border-radius: 3px;
+    border: 1px solid #432c02;
+}
+
+textarea {
+  padding: 50px 100px;
+}
+
+.btn {
+  background-color: rgba(240, 130, 30, 0.8);
+  color: #fff;
+  padding: 20px 40px;
+  margin-top: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #f0821e;
+}
